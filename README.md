@@ -10,7 +10,7 @@
 <br>
 
 ## 2. Team Briefing
-
+ - Simple CuDNNGRU [Python + Keras]
 
 <br>
 
