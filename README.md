@@ -21,6 +21,8 @@
 | Experiment | Score | Date |
 |---|:---:|---:|
 | Original Kernel : Simple CuDNNGRU [Python + Keras] | 0.92271 | 2019.05.30 |
+| MaxPool + AvgPool => Using Only MaxPool | 0.92386 | 2019.05.30 |
+| Dropout 0.2 => Dropout 0.1 | | 2019.05.30 |
 
 #### 1. 튜닝 값 : 
  
