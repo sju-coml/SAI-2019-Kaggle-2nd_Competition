@@ -11,6 +11,7 @@
 
 ## 2. Team Briefing
  - Simple CuDNNGRU [Python + Keras]
+ - Newbie Tutorial - Jigsaw Unintended Bias Basic EDA
 
 <br>
 
@@ -37,7 +38,7 @@
 
   
 #### 3. 분석
- - MaxPool + AvgPool로 구성된 것을 MaxPool로 구성했더니 성능이 조금 올라갔다. DNN에서는 AvgPool보다 MaxPool을 이용하는게 좋다는 연구가 있다.
+ - MaxPool + AvgPool로 구성된 것을 MaxPool로 구성했더니 성능이 조금 올라갔다. DNN에서는 AvgPool이 성능이 좋지 않을 수 있다는 연구가 있었다.
  - Dropout을 0.2에서 0.1로 줄여 봤더니 성능이 떨어졌다. Overfitting?
  - 모델에 다양한 층을 쌓으며 실험중
 
