@@ -26,7 +26,7 @@
 | MaxPool, relu | 0.92267 | 2019.05.31 |
 
 #### 1. 튜닝 값 : 하이퍼파라미터 튜닝이 아닌, 모델 자체의 층 구성을 바꿔보려고 노력했다.
- - AvgPool : 윈도우에서 평균값을 선택. Average pooling은 DNN에서 성능이 좋지 못하다. 활성화 함수 relu를 쓸 때 0이 많이 낭면 강한 자극의 영향이 줄어드는 효과가 발생하기 때문이다.
+ - AvgPool : 윈도우에서 평균값을 선택. Average pooling은 DNN에서 성능이 좋지 못하다. 활성화 함수 relu를 쓸 때 0이 많이 나오면 강한 자극의 영향이 줄어드는 효과가 발생하기 때문이다.
  - MaxPool : 윈도우에서 최고값을 선택. Max pooling은 average pooling과 같은 문제는 없지만 overfitting이 될 수 있다.
  - Dropout : Dropout은 네트웍의 일부를 생략하고 학습을 진행한다. 생략한 네트웍은 학습에 영향을 끼치지 않게 된다. 무작위 뉴런 생략을 통한 overfitting 방지!
  
@@ -37,6 +37,12 @@
 
   
 #### 3. 분석
+ - MaxPool + AvgPool로 구성된 것을 MaxPool로 구성했더니 성능이 조금 올라갔다. DNN에서는 AvgPool보다 MaxPool을 이용하는게 좋다는 연구가 있다.
+ - Dropout을 0.2에서 0.1로 줄여 봤더니 성능이 떨어졌다. Overfitting?
+ - 모델에 다양한 층을 쌓으며 실험중
+
+<br>
+<br>
 
 ### (2) 
 
