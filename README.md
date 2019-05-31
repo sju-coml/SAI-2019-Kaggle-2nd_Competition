@@ -23,7 +23,7 @@
 | Original Kernel : Simple CuDNNGRU [Python + Keras] | 0.92271 | 2019.05.30 |
 | MaxPool + AvgPool => MaxPool | 0.92386 | 2019.05.30 |
 | MaxPool, Dropout 0.2 => Dropout 0.1 | 0.92063 | 2019.05.30 |
-| MaxPool, relu |  | 2019.05.31 |
+| MaxPool, relu | 0.92267 | 2019.05.31 |
 
 #### 1. 튜닝 값 : 
  
